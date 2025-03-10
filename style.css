@@ -1,0 +1,285 @@
+
+body{
+    background-color: white;
+    width: 1200px;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 30px 80px;
+  height: max-content;
+ /* background-color: aqua;*/
+
+
+}
+
+
+
+.top-block{
+display: flex;
+gap: 30px;
+
+
+}
+#carraLogo{
+    margin-top: -40px;
+ 
+
+}
+
+.headerIcons{
+    margin-left: 300px;
+}
+
+.black-shape {
+    width: 600px; 
+    height: 600px; 
+    background-color: rgb(53, 52, 52);
+   border-radius: 80px ; 
+    position: absolute;
+   margin-left:  850px;
+   margin-top: -180px;
+   transform: rotate(40deg);
+   z-index: -1;
+   overflow: hidden;
+  }
+
+.hero-section{
+  display: flex;
+  margin-top: 80px;
+
+
+}
+
+#page-headline{
+  width: 100%;
+  font-size: 70px;
+  margin-top: 40px;
+ 
+
+
+}
+
+#home{
+    border: dotted grey 2px ;
+}
+
+#sub-headline{
+   margin-top: 50px;
+
+
+}
+ #start{
+   background-color: rgb(83, 82, 82);
+   color: white;
+   border: none;
+   margin:  20px ;
+   padding: 30px 50px;
+  border-radius: 50px;
+   font-size: 15px;
+   
+
+ }
+
+ #play-button{
+     
+     margin:  30px ;
+     padding: 20px;
+     background-color: rgb(192, 191, 191);
+    border-radius: 10px;
+    
+ }
+ .action{
+   display: flex;
+
+ }
+ #press{
+ 
+ margin-top: 50px;
+ font-size: 30px;
+
+ }
+ .itemTypes{
+     display: flex;
+     gap: 30px;
+     
+    
+ }
+ #num1{
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
+ #num2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+ }
+ #num3{
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
+
+ .hero-section-image{
+    margin-right: 40px;
+ }
+ .companyLogos{
+     margin: 100px 20px;
+     gap: 40px;
+     
+     
+  
+ }
+ #logoIKEA{
+  width: 200px;
+  margin-bottom: -10px;
+
+ }
+ #dipty{
+    width: 200px;
+    margin-bottom: -5px;
+ }
+ #desenio{
+    width: 200px ;
+ }
+
+ #westWing{
+    width: 200px;
+    margin-bottom: 20px;
+ }
+
+  .pageBreak{
+     display: flex;
+  }
+ 
+ 
+ .navigationIcons{
+    margin-left: 1100px;
+
+ }
+ .catalogue{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    margin-left: -80px;
+ }
+
+ #img1, #img2, #img3, #img4{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(245, 241, 232);
+    margin: 40px;
+    justify-content: center;
+    
+    
+
+ }
+ 
+
+ .top-left {
+    color: red;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+    
+
+ }
+
+ .top-right {
+   color: black;
+    position: absolute;
+    margin-top : 70px ;
+    margin-left: 250px;
+
+    
+ }
+
+ .section2{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-size: 30px;
+
+ }
+ .promotions{
+    display: flex;
+    gap: 100px;
+ }
+
+ #sectionHeadline{
+    width: 70%;
+  font-size: 45px;
+ }
+  #shop-button{
+    margin:  20px ;
+    padding: 30px 50px;
+    border: solid black 1px;
+
+   border-radius: 50px;
+
+  }
+
+  .section3{
+    margin-top: 200px;
+    display: flex;
+    gap: 100px;
+  }
+  .section3Description{
+    font-size: 30px;
+  }
+
+  #section3Headline{
+    width: 70%;
+  font-size: 45px;
+
+  }
+  .section4{
+    margin: 200px;
+    text-align: center;
+  }
+  .services{
+     display: flex;
+     gap: 100px;
+
+  }
+  #serviceImage1, #serviceImage2, #serviceImage3, #serviceImage4{
+       background-color: rgb(75, 73, 73);
+       width: 200px;
+       height: 200px;
+       border-radius: 15px;
+
+
+  }
+
+  .section5{
+    text-align: center;
+    margin: 200px;
+
+  }
+
+  .section6{
+    display: flex;
+    gap: 50px;
+  }
+  .review {
+    font-size: 30px; 
+  }
+ 
+  .reviewer{
+    display: flex;
+    gap: 20px;
+  }
+  .allReviews{
+     display: flex;
+  }
+
+  .footer-section{
+    display: flex;
+    gap: 200px;
+    margin-top: 200px;
+  }
+  .copyright{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    gap: 700px;
+  }
