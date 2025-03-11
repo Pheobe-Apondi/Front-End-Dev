@@ -1,47 +1,63 @@
 
 body{
     background-color: white;
-    width: 1200px;
-  border: 2px solid black;
-  margin: 0 auto;
-  margin-top: 200px;
-  padding: 30px 80px;
-  height: max-content;
- /* background-color: aqua;*/
-
-
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 80px;
+    height: max-content;
+    margin-bottom: 200px;
+    overflow-x: hidden;
 }
 
 
 
-.top-block{
+.header-section{
 display: flex;
 gap: 30px;
-
+justify-content: space-between;
+margin-top: 10px;
 
 }
+
+
 #carraLogo{
     margin-top: -40px;
- 
+   margin-left: -30px;
 
 }
+
 
 .headerIcons{
     margin-left: 300px;
+    color: white;
+    
+    
 }
 
+
+#basket{
+    margin-right: 40px;
+}
+
+#magnifying-glass{
+    margin-left: 40px;
+}
+
+
 .black-shape {
-    width: 600px; 
-    height: 600px; 
-    background-color: rgb(53, 52, 52);
+    width: 500px; 
+    height: 800px; 
+    background-color: rgb(73, 73, 73);
    border-radius: 80px ; 
     position: absolute;
-   margin-left:  850px;
-   margin-top: -180px;
-   transform: rotate(40deg);
-   z-index: -1;
-   overflow: hidden;
+   margin-left:  70%;
+   margin-top: -450px;
+   transform: rotate(45deg); 
+    z-index: -1;
   }
+  
+
 
 .hero-section{
   display: flex;
@@ -50,24 +66,24 @@ gap: 30px;
 
 }
 
+
 #page-headline{
   width: 100%;
-  font-size: 70px;
-  margin-top: 40px;
- 
-
+  font-size: 100px;
+  margin-top: 6px;
 
 }
 
 #home{
-    border: dotted grey 2px ;
+    border: dashed grey ;
 }
+
 
 #sub-headline{
    margin-top: 50px;
 
-
 }
+
  #start{
    background-color: rgb(83, 82, 82);
    color: white;
@@ -82,14 +98,16 @@ gap: 30px;
 
  #play-button{
      
-     margin:  30px ;
-     padding: 20px;
-     background-color: rgb(192, 191, 191);
-    border-radius: 10px;
+    margin:  30px ;
+    padding: 20px;
+    background-color: rgb(192, 191, 191);
+   border-radius: 10px;
+   
     
  }
  .action{
    display: flex;
+   margin: 20px;
 
  }
  #press{
@@ -101,6 +119,7 @@ gap: 30px;
  .itemTypes{
      display: flex;
      gap: 30px;
+    
      
     
  }
@@ -122,8 +141,8 @@ gap: 30px;
     margin-right: 40px;
  }
  .companyLogos{
-     margin: 100px 20px;
-     gap: 40px;
+    margin: 100px 20px;
+     
      
      
   
@@ -131,29 +150,49 @@ gap: 30px;
  #logoIKEA{
   width: 200px;
   margin-bottom: -10px;
+  margin-right: 100px;
+  
 
  }
  #dipty{
     width: 200px;
     margin-bottom: -5px;
+    margin-right: 30px;
  }
  #desenio{
     width: 200px ;
+    margin-left: 30px;
+ }
+ #benuta{
+    margin-left: 50px;
  }
 
  #westWing{
     width: 200px;
     margin-bottom: 20px;
+    margin-left: 100px;
  }
 
-  .pageBreak{
-     display: flex;
+ 
+  
+  .scrollCatalogue{
+    display: inline-block;
+    f
+      .bestSeller{
+        display: flex;
+        justify-content: space-between; 
+      }
   }
- 
- 
- .navigationIcons{
-    margin-left: 1100px;
 
+ 
+  
+  
+ .navigationIcons{
+    margin-top: 0;
+    margin-left: 1450px;
+    display: flex;
+    gap: 10px;
+    
  }
  .catalogue{
     display: flex;
@@ -161,6 +200,7 @@ gap: 30px;
     gap: 50px;
     margin-left: -80px;
  }
+ 
 
  #img1, #img2, #img3, #img4{
     width: 100%;
@@ -169,10 +209,17 @@ gap: 30px;
     background-color: rgb(245, 241, 232);
     margin: 40px;
     justify-content: center;
-    
-    
+    max-width: 100%;
+   
 
  }
+ .itemDescription,.itemPrice{
+    margin-left: 50px;
+
+ }
+
+
+ 
  
 
  .top-left {
@@ -196,19 +243,26 @@ gap: 30px;
  .section2{
     text-align: center;
     margin-top: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     font-size: 30px;
+    
 
  }
  .promotions{
     display: flex;
     gap: 100px;
  }
+  .promoDescription{
+      font-size: 30px;
+
+  }
 
  #sectionHeadline{
     width: 70%;
   font-size: 45px;
+  
  }
+
   #shop-button{
     margin:  20px ;
     padding: 30px 50px;
@@ -235,10 +289,12 @@ gap: 30px;
   .section4{
     margin: 200px;
     text-align: center;
+    font-size: 30px;
   }
   .services{
      display: flex;
      gap: 100px;
+     justify-content: center;
 
   }
   #serviceImage1, #serviceImage2, #serviceImage3, #serviceImage4{
@@ -254,11 +310,12 @@ gap: 30px;
     text-align: center;
     margin: 200px;
 
+    font-size: 30px;
   }
 
   .section6{
     display: flex;
-    gap: 50px;
+    gap: 100px;
   }
   .review {
     font-size: 30px; 
@@ -270,16 +327,22 @@ gap: 30px;
   }
   .allReviews{
      display: flex;
+     gap: 500px;
+     margin-top: 60px;
   }
-
+ 
   .footer-section{
     display: flex;
-    gap: 200px;
+    gap: 250px;
     margin-top: 200px;
+    justify-content: center;
   }
   .copyright{
     display: flex;
     margin-top: 100px;
     margin-bottom: 40px;
-    gap: 700px;
+    gap: 900px;
+    justify-content: center;
   }
+
+ 
