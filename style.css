@@ -25,9 +25,25 @@ margin-top: 10px;
 #carraLogo{
     margin-top: -40px;
    margin-left: -30px;
+  
+
+}
+.navigation{
+ display: flex;
+ gap: 30px;
+ margin-bottom: 60px;
+
 
 }
 
+.navigation a{
+   text-decoration: none;
+   color: black;
+
+}
+.navigation a:hover{
+   background-color: blue;
+}
 
 .headerIcons{
     margin-left: 300px;
@@ -343,7 +359,7 @@ margin-top: 10px;
      margin-top: 60px;
   }
  
-  .footer-section{
+  .companyInfo{
     display: flex;
     gap: 250px;
     margin-top: 200px;
@@ -356,5 +372,7 @@ margin-top: 10px;
     gap: 900px;
     justify-content: center;
   }
+
+
 
  
